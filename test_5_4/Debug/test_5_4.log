@@ -1,0 +1,73 @@
+﻿  test.cpp
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(476,8): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(476,19): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(480,13): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(480,25): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(480,37): error C2248: “Date::_month”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(433): message : 参见“Date::_month”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(480,49): error C2248: “Date::_month”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(433): message : 参见“Date::_month”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(484,13): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(484,25): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(484,37): error C2248: “Date::_month”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(433): message : 参见“Date::_month”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(484,50): error C2248: “Date::_month”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(433): message : 参见“Date::_month”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(484,63): error C2248: “Date::_day”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(434): message : 参见“Date::_day”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(484,73): error C2248: “Date::_day”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(434): message : 参见“Date::_day”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(494,8): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(494,19): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(498,13): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(498,25): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(498,37): error C2248: “Date::_month”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(433): message : 参见“Date::_month”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(498,49): error C2248: “Date::_month”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(433): message : 参见“Date::_month”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(502,13): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(502,25): error C2248: “Date::_year”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(432): message : 参见“Date::_year”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(502,37): error C2248: “Date::_month”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(433): message : 参见“Date::_month”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(502,50): error C2248: “Date::_month”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(433): message : 参见“Date::_month”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(502,63): error C2248: “Date::_day”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(434): message : 参见“Date::_day”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(502,73): error C2248: “Date::_day”: 无法访问 private 成员(在“Date”类中声明)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(434): message : 参见“Date::_day”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_4\test.cpp(421): message : 参见“Date”的声明
