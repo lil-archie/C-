@@ -1,0 +1,26 @@
+﻿  test.cpp
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(392,1): error C2011: “A”:“class”类型重定义
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(5): message : 参见“A”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(461,6): error C2027: 使用了未定义类型“A”
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(5): message : 参见“A”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(462,1): error C2027: 使用了未定义类型“A”
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(5): message : 参见“A”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(464,8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(464,3): error C2146: 语法错误: 缺少“;”(在标识符“Func5”的前面)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(465,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(465,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(543,79): error C2027: 使用了未定义类型“BuyListNode::ListNode”
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(543): message : 参见“BuyListNode::ListNode”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(543,50): error C2065: “malloc”: 未声明的标识符
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(546,12): error C2027: 使用了未定义类型“BuyListNode::ListNode”
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(543): message : 参见“BuyListNode::ListNode”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(548,19): error C2440: “return”: 无法从“BuyListNode::ListNode *”转换为“ListNode *”
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(548,12): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(551,5): error C2084: 函数“int main(void)”已有主体
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(207): message : 参见“main”的前一个定义
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(558,36): error C2027: 使用了未定义类型“ListNode”
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(540): message : 参见“ListNode”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(559,36): error C2027: 使用了未定义类型“ListNode”
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(540): message : 参见“ListNode”的声明
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(560,36): error C2027: 使用了未定义类型“ListNode”
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_16\test.cpp(540): message : 参见“ListNode”的声明
