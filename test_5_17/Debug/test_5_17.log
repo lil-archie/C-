@@ -1,0 +1,7 @@
+﻿  test.cpp
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_17\test.cpp(333,22): warning C4267: “参数”: 从“size_t”转换到“_Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+  test_5_17.vcxproj -> C:\Users\hp\Desktop\代码\c++\myc__\test_5_17\Debug\test_5_17.exe
