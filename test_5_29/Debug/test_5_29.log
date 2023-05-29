@@ -1,0 +1,4 @@
+﻿  test.cpp
+C:\Users\hp\Desktop\代码\c++\myc__\test_5_29\test.cpp(173,9): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+Debug\test.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  test_5_29.vcxproj -> C:\Users\hp\Desktop\代码\c++\myc__\test_5_29\Debug\test_5_29.exe
