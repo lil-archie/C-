@@ -18,6 +18,60 @@ namespace myvector
 		, _endofstorage(nullptr)
 		{}
 
+		vector(const vector<T> & v)//拷贝构造函数
+			: _start(nullptr)
+			, _finish(nullptr)
+			, _endofstorage(nullptr)
+		{
+			_start = new T[v.capacity()];
+			for (size_t i = 0; i < v.size(); i++)
+			{
+				_start[i] = v._start[i];
+			}
+			_finish = _start + v.size();
+			_endofstorage = _start + v.capacity();
+		}
+
+		vector(size_t n, const T& val = T())//给缺省值
+			: _start(nullptr)
+			, _finish(nullptr)
+			, _endofstorage(nullptr)
+		{
+			resize(n, val);
+		}
+
+		vector(int n, const T& val = T())//函数重载，方便编译器识别
+			: _start(nullptr)
+			, _finish(nullptr)
+			, _endofstorage(nullptr)
+		{
+			resize(n, val);
+		}
+
+		template<class InputIterator>
+		vector(InputIterator first, InputIterator last)
+		{
+			while (first != last)
+			{
+				push_back(*first);
+				first++;
+			}
+		}
+
+
+		void swap(vector<T>& v)
+		{
+			std::swap(_start, v._start);
+			std::swap(_finish, v._finish);
+			std::swap(_endofstorage ,v._endofstorage);
+		}
+
+		vector<T>& operator=(vector<T> v)//构造临时类型，互换后释放
+		{
+			swap(v);
+			return *this;
+		}
+
 		~vector()
 		{
 			delete[] _start;
@@ -56,7 +110,22 @@ namespace myvector
 
 
 
-
+		void resize(size_t n, const T& val)
+		{
+			if (n < size())
+			{
+				_finish = _start + n;
+			}
+			else
+			{
+				reserve(n);
+				while (_finish != _start + n)
+				{
+					*_finish = val;
+					_finish++;
+				}
+			}
+		}
 
 		//扩容
 		void reserve(size_t n)
@@ -67,7 +136,11 @@ namespace myvector
 				T* tmp = new T[n];
 				if (_start)
 				{
-					memcpy(tmp, _start, sizeof(T)*sz);//注意
+					//memcpy(tmp, _start, sizeof(T)*sz);//注意
+					for (size_t i = 0; i < sz; i++)//字符串拷贝时需要深拷贝。所以需要调用string类的赋值实现深拷贝
+					{
+						tmp[i] = _start[i];
+					}
 					delete[] _start;
 					
 				}
@@ -127,6 +200,24 @@ namespace myvector
 			*pos = x;
 			_finish++;
 
+
+			return pos;
+		}
+
+		iterator erase(iterator pos)//使用过后迭代器失效（防止修改原位置数据，vs环境下强制检查，Linux下可以访问）
+		{
+			assert(pos >= _start && pos < _finish);
+
+			iterator it = pos + 1;
+
+			while (it != _finish)
+			{
+				*(it - 1) = *it;
+				it++;
+				
+			}
+
+			_finish--;
 
 			return pos;
 		}
