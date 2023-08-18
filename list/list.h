@@ -271,17 +271,18 @@ namespace mylist
 
 
 
-		list<T>(const list<T>& lt)
+		list(const list<T>& lt)
 		{
 			empty_init();
 			for (auto& e : lt)
 			{
-				push_back(lt);
+				push_back(e);
 			}
 		}
 		void swap(list<T>& lt)
 		{
 			std::swap(_head, lt._head);
+
 			std::swap(_size, lt._size);
 		}
 
