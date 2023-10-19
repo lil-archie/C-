@@ -1,0 +1,6 @@
+﻿  test.cpp
+E:\code\re-c\priority_queue\vector.h(74,24): warning C4018: “<”: 有符号/无符号不匹配
+E:\code\re-c\priority_queue\vector.h(66): message : 在编译 类 模板 成员函数“void myvector::vector<int>::reserve(size_t)”时
+E:\code\re-c\priority_queue\vector.h(47): message : 查看对正在编译的函数 模板 实例化“void myvector::vector<int>::reserve(size_t)”的引用
+E:\code\re-c\priority_queue\test.cpp(11): message : 查看对正在编译的 类 模板 实例化“myvector::vector<int>”的引用
+  priority_queue.vcxproj -> E:\code\re-c\priority_queue\Debug\priority_queue.exe
