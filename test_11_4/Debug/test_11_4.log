@@ -1,0 +1,19 @@
+﻿  test.cpp
+E:\code\testforc\test_11_4\PriorityQueue.h(74,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\code\testforc\test_11_4\PriorityQueue.h(71): message : 在编译 类 模板 成员函数“void myPriorityQueue::Priority_queue<int,std::vector<T,std::allocator<T>>,Less<T>>::AdjustDown(int)”时
+          with
+          [
+              T=int
+          ]
+E:\code\testforc\test_11_4\PriorityQueue.h(54): message : 查看对正在编译的函数 模板 实例化“void myPriorityQueue::Priority_queue<int,std::vector<T,std::allocator<T>>,Less<T>>::AdjustDown(int)”的引用
+          with
+          [
+              T=int
+          ]
+E:\code\testforc\test_11_4\test.cpp(36): message : 查看对正在编译的 类 模板 实例化“myPriorityQueue::Priority_queue<int,std::vector<T,std::allocator<T>>,Less<T>>”的引用
+          with
+          [
+              T=int
+          ]
+E:\code\testforc\test_11_4\PriorityQueue.h(76,19): warning C4018: “<”: 有符号/无符号不匹配
+  test_11_4.vcxproj -> E:\code\testforc\test_11_4\Debug\test_11_4.exe
