@@ -70,7 +70,7 @@ namespace myPriorityQueue
 		void AdjustDown(int parent)
 		{
 			Compare com;
-			int child = parent * 2 + 1;
+			size_t child = parent * 2 + 1;
 			while (child < _con.size())
 			{
 				if (child + 1 < _con.size() && com(_con[child], _con[child + 1]))
@@ -89,13 +89,13 @@ namespace myPriorityQueue
 				}
 			}
 		}
-		void AdjustUp(int child)//向下调整法
+		void AdjustUp(int child)//向调整法
 		{
 			Compare com;
 			int parent = (child - 1) / 2;
 			while (child>0)
 			{
-				if (com(_con[child], _con[parent]))
+				if (com(_con[parent], _con[child]))
 				{
 					swap(_con[child], _con[parent]);
 					child = parent;

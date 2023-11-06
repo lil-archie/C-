@@ -34,10 +34,10 @@ int main()
 
 
 	myPriorityQueue::Priority_queue<int> q1;
-	q1.push(100);
-	q1.push(53);
-	q1.push(3);
-	q1.push(1989);
+	q1.push(189);
+	q1.push(25);
+	q1.push(355);
+	q1.push(4);
 
 	while (!q1.empty())
 	{

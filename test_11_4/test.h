@@ -4,6 +4,7 @@
 #include<vector>
 #include<list>
 #include<algorithm>
+#include<functional>
 using namespace std;
 
 namespace myqueue
